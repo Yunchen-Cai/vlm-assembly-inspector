@@ -1,0 +1,27 @@
+# === 忽略系统文件 ===
+__pycache__/
+*.pyc
+.DS_Store
+.vscode/
+.idea/
+
+# === 忽略大数据文件夹 ===
+# 我们只传代码，图片数据不要传
+data/
+
+# === 忽略模型缓存 ===
+# HuggingFace 的模型非常大
+cache/
+
+# === 忽略训练产出 ===
+# Checkpoint 和 LoRA 权重很大，不要传
+output/
+
+# === 忽略虚拟环境 ===
+venv/
+env/
+.env
+
+# === 忽略日志 ===
+*.log
+runs/
